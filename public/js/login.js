@@ -22,3 +22,11 @@ const loginFormHandler = async (event) => {
   document
     .querySelector('.login-form')
     .addEventListener('submit', loginFormHandler);
+
+function takeToLogin() {
+  
+
+  document.location.replace('/login');
+}
+
+document.querySelector('#login').addEventListener('click', takeToLogin)

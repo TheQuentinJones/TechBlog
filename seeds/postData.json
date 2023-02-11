@@ -1,14 +1,17 @@
 [
     {
         "title": "Coding is fun",
-        "body": "I just really like coding! That's it!"
+        "body": "I just really like coding! That's it!",
+        "user_id": 1
     },
     {
         "title": "Coding is grand",
-        "body": "I just really like coding! That's it! Same as before."
+        "body": "I just really like coding! That's it! Same as before.",
+        "user_id": 2
     },
     {
         "title": "Bootcamps are great!",
-        "body": "UCF has an awesome coding bootcamp."
+        "body": "UCF has an awesome coding bootcamp.",
+        "user_id": 3
     }
 ]
