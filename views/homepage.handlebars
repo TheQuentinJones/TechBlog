@@ -1,5 +1,16 @@
 <!-- Loop over each object in the posts array -->
 {{#if logged_in}}
+<p class="title is-3">Welcome {{user.name}}!!</p>
+{{else}}
+<nav class="buttons">
+    <a href="/login">Click here to login!</a>
+</nav>
+{{/if}}
+
+{{#if logged_in}}
+
+<p class="title is-4 has-text-centered">Create A New Post</p>
+
 <div>
     <h3 class="is-size-4 has-text-weight-semibold">Title</h3>
     <input class="input is-link" type="text" placeholder="Link input" id="post-title">
@@ -9,10 +20,12 @@
 </div>
 {{/if}}
 
+<p class="title is-4 has-text-centered">Latest Posts</p>
 
 {{#each posts as |post| }}
 <div class="row mb-4 post">
     <div class="col-md-5">
+        
         <div class="card">
            <div class="card-content">
                 <!-- Call helper function with triple brackets to render the emoji span as HTML -->

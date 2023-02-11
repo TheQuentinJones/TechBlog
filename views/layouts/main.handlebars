@@ -18,17 +18,14 @@
     <nav class="buttons">
       <button class="button is-primary" id="logout">logout</button>
     </nav>
-    {{else}}
-    <nav class="buttons">
-      <a href="/login">Click here to login!</a>
-    </nav>
     {{/if}}
+
   </header>
   <main class="container container-fluid mt-5">
     {{{ body }}}
   </main>
   <footer class="has-text-centered is-size-4">
-      <p class="has-text-dark">Welcome to the TechBlog</p>
+      <p class="has-text-dark">Thank you for visiting!</p>
   </footer>
 
   {{#if logged_in}}

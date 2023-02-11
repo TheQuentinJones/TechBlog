@@ -1,3 +1,7 @@
 main {
     min-height: 90vh;
 }
+
+button {
+    margin: 1rem;
+}
