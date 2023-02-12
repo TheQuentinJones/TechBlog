@@ -4,20 +4,8 @@
 {{else}}
 <nav class="buttons">
     <a href="/login">Click here to login!</a>
+    
 </nav>
-{{/if}}
-
-{{#if logged_in}}
-
-<p class="title is-4 has-text-centered">Create A New Post</p>
-
-<div>
-    <h3 class="is-size-4 has-text-weight-semibold">Title</h3>
-    <input class="input is-link" type="text" placeholder="Link input" id="post-title">
-    <h3 class="is-size-4 has-text-weight-semibold">Post</h3>
-    <textarea class="textarea" placeholder="Write your post here!" rows="10" id="post-body"></textarea>
-    <button class="button is-primary" id="submit-post">Submit Post</button>
-</div>
 {{/if}}
 
 <p class="title is-4 has-text-centered">Latest Posts</p>
